@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+a {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44.06px;
+  text-decoration: none;
+  cursor: pointer;
+}
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44.06px;
+  width: 456px;
+  margin-top: 54px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 60px;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.5px;
+  margin-bottom: 40px;
+}
+/*navbar*/
+
+.navbar {
+  width: 80%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 33px;
+}
+a:nth-child(2) {
+  color: red;
+}
+.navbar img {
+  display: none;
+}
+@media (max-width: 375px) {
+  .navbar img {
+    display: block;
+  }
+  .navbar a {
+    display: none;
+  }
+}
+
+/*navbar end*/
+
+/*Contact*/
+
+.contact {
+  width: 60%;
+  margin: auto;
+}
+.contact .year {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 13px;
+}
+
+p:nth-child(1) {
+  background-color: #ff7c7c;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+@media (max-width: 375px) {
+  .contact {
+    width: 90%;
+    margin: auto;
+  }
+  .contact .year {
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 13px;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    width: 95%;
+    margin-top: 54px;
+  }
+  .contact img {
+    width: 95%;
+  }
+}
+
+/*Contact end*/
+
+/*footer*/
+
+.footer {
+  width: 80%;
+  height: 182px;
+  margin: auto;
+  margin-top: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+.footer div {
+  display: flex;
+  gap: 35px;
+}
+@media (max-width: 375px) {
+  .footer {
+    width: 95%;
+    height: 182px;
+    margin: auto;
+    margin-top: 100px;
+  }
+}
+/*footer end*/
